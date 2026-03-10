@@ -1,0 +1,57 @@
+/* MAIN SIDEBAR */
+
+.main-sidebar{
+width:220px;
+height:100vh;
+background:#fafbfc;
+color:rgb(15, 14, 14);
+position:fixed;
+left:0;
+top:0;
+padding-top:20px;
+}
+
+/* LOGO */
+
+.logo{
+text-align:center;
+margin-bottom:30px;
+font-weight:600;
+font-size:18px;
+}
+
+/* MENU */
+
+.sidebar-menu{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.sidebar-menu li{
+padding:12px 20px;
+cursor:pointer;
+display:flex;
+align-items:center;
+gap:10px;
+font-size:14px;
+transition:0.2s;
+}
+
+/* hover */
+
+.sidebar-menu li:hover{
+background:#374151;
+}
+
+/* active */
+
+.sidebar-menu .active{
+background:#2563eb;
+}
+
+/* ICON */
+
+.sidebar-menu span{
+font-size:16px;
+}
